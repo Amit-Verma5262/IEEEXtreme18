@@ -1,0 +1,12 @@
+You are given a positive integer N. Your task is to determine if there exists a nonnegative integer 2 such that 3 N. If such an integer exists, print 2; otherwise, print -1.
+
+Input
+The first line contains one integer N.
+
+Output
+If there exists a nonnegative integer 2 such that 3 N. print z. Otherwise, print -1.
+
+Constraints and notes
+N is a nonnegative number with at most 107 digits.
+The time limit is the same for all languages.
+The test cases are grouped. In order to get the points for a test group you need to pass all tests in that group.
