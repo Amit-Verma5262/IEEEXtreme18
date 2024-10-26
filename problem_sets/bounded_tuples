@@ -1,0 +1,16 @@
+Alice needs to choose N non-negative integer values V1, V2,..., VN.
+Bob gives Alice M constraints of the form: the sum of the elements of a given subset of V should be greater or equal than a given value low and smaller or equal than another given value high. Formally, the i-th constraint is represented by a set of K, indices P1, P2,..., PK, such that: lowi VR+VP++VPx, high,
+Your task is to calculate how many assignments of the variables Vi satisfy all the inequalities. Output the result modulo 998244353. However, if there are infinitely many valid assignments, print infinity.
+
+Standard Input
+The first line contains two integers N and M.
+The next M lines each contain the integers low,, high, and K₁. Then, on the same line K, indices P1, P2,..., PK follow.
+
+Standard Output
+Print the answer on the first line.
+
+Constraints and Notes
+1<=N<=8
+0<=M<=4
+0<=low, high<=10^18
+1<K≤3

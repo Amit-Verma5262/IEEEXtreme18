@@ -1,0 +1,16 @@
+Dexter is playing again with N substances trying to complete his greatest invention. Because it's running late, Dexter has decided the invention will have to wait until tomorrow. In the meanwhile, he needs to find a way to store the N substances in his two fridges. Each fridge can be set to a certain temperature, an integer value between -100 and 100. For each of the N substances, Dexter knows an interval [a, b], meaning the storing temperature of the i-th substance needs to fall in that specific interval.
+Help Dexter decide the temperatures of the two fridges.
+
+Standard input
+The first line contains a single integer N.
+Each of the following N lines contains two values a; and bi, representing the storing interval for the i-th substance.
+
+Standard output
+If there is no solution, print -1.
+Otherwise, print two values T₁ and T2 (T1 T2), representing the temperatures of the two fridges.
+
+Constraints and notes
+ 0 ≤ N ≤ 100
+-100 ≤ ai,bi ≤ 100
+-100 ≤ T₁≤T2 ≤ 100
+If there are multiple solutions, print the one where T₁ is minimum. If there are still multiple solutions, print the one where T2 is mimimum.
