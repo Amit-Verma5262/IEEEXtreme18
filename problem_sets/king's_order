@@ -1,0 +1,15 @@
+In the kingdom of Lexiconia, King Algorithmus gave his loyal knights a monumental task: to complete a series of important projects. These projects were divided into different groups, each identified by its group ID. The projects had to be completed in a particular order, as some depended on others being finished first. To add to the challenge, the King decreed that the the final project order must follow the kingdom's ancient rules of order:
+If there are multiple projects with no pending dependencies to execute, choose the one with lowest group ID.
+If there are multiple projects with no pending dependencies to execute and with the lowest group ID, choose the one with lowest project ID.
+Each knight had a project to oversee, and the projects belonged to specific groups. However, there were dependencies between the projects that could not be ignored. The knights needed to figure out a valid order to complete all the projects, making sure they followed the dependencies and arranged them following the kingdom's order.
+As they gathered in the Great Hall, the knights realized the complexity of the task. Could they find the right sequence to complete all the projects, or would the kingdom fall into disarray due to an unresolvable cycle of dependencies? Now, it's up to you, the royal advisor, to determine if there is a valid project order that respects all dependencies, or if the kingdom's projects are trapped in a cycle that makes completion impossible.
+Can you guide the knights and ensure the proper order of projects, or will Lexiconia be lost to chaos?
+Standard input
+The first line contains two integers V and M. representing the number of projects and the number of dependencies, respectively.
+The second line contains N integers representing the group IDs of each project, where the i-th integer represents the group ID of project i.
+The next M lines each contain two integers A and B, indicating that project A must be completed before project B.
+Standard output
+Output a single line containing a valid project order such that all dependencies are satisfied, and the sequence is lexicographically minimal according to the kingdom's order. If there is no valid order (i.e., the dependency graph has a cycle), output -1.
+Constraints and notes
+1 <= N <= 1000
+The group IDs will be integers between 1 and 109 1<AB<N for every dependency.
