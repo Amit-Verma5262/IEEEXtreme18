@@ -7,20 +7,22 @@ IEEEXtreme is a global challenge in which teams of IEEE Student members – advi
 1. **Fork** this repository to your GitHub account and **give a star**.
 2. **Clone** the repository to your local machine:
     ```bash
-    git clone ~https://github.com/your_username/IEEEXtreme18~
+    git clone https://github.com/your_username/IEEEXtreme18
     ```
 3. **Create a branch** with your name:
     ```bash
-    git checkout -b ~your_branch~
+    git checkout -b your_branch
     ```
 4. **Make necessary changes** and commit those changes:
     ```bash
     git add .
+    ```
+    ```bash
     git commit -m "your message"
     ```
 5. **Push changes** to GitHub:
     ```bash
-    git push origin ~your branch name~
+    git push origin your_branch
     ```
 6. **Submit your changes for review**:
     - Go to your repository on GitHub.
